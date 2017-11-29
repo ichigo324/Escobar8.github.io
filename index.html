@@ -184,15 +184,23 @@ occurs when uttering the same thing under different emotional situations. The Gr
 					<div class="subsection">
 						<div class="heading" id="T11">2.2 Preprocessing and Feature selection</div>
 						<div class="text">
-							Preprocessing of data was done by mean normalization.
-							We used brute force in determining the combination of features
-							which gave maximum accuracy. 
+							We selected the dataset which was noise free and of high quality type. So, we did not need much of
+						        pre-processing for our audio clips. So, we went on extracting features from our .Wav files. We 
+							extracted a total of 42 features via coding in python. The features are : ZCR, Energy, Entropy of Energy,
+							Spectral centroid, Spectral Spread, Spectral Entropy, Spectral Flux, Spectral Roll-off, MFCCs, Chroma Vectors
+						        Chromo-deviation. After that, we normalized these features and got a processed .CSV file. Then we tested the 
+						        combination of these features and saw the result of it on the classifier accuracy and chose the best combination
+							of the features. The codes written for these extraction are <a href="https://github.com/harsh4723/Emotion-Detection" target="#">here</a>
+							
+							
+					
 						</div>
 					</div>
 					<div class="subsection">
 						<div class="heading" id="T12">2.3 Classification</div>
 						<div class="text">
-							likh dena
+						        we trained our dataset on our classifiers (KNNs and SVM). After that, we tested the classifier
+							on some of the random datasets and recorded the accuracy. 
 						</div>
 						
 					</div>
