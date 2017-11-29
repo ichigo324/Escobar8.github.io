@@ -155,7 +155,7 @@ occurs when uttering the same thing under different emotional situations. The Gr
 							 <li> Summary<a href="#T17">[4.1]</a>
 										   <li>Future Extensions<a href="#T18">[4.2]</a>
 						</ul>
-														      <li>References<a href="T19">[5]</a>
+														      <li>References<a href="#T19">[5]</a>
 						</ul>
 						<!-- Stop edit here -->
 
@@ -199,45 +199,45 @@ occurs when uttering the same thing under different emotional situations. The Gr
 							<table style="width:100%">
                                                              <tr>
                                                               <th>Feature's Combination</th>
-                                                              <th>Frame Size</th> 
+                                                              <th>Frame Size(in s)</th> 
                                                               <th>Classifier</th>
 			                                      <th>Accuracy</th>										 
                                                              </tr>
                                                              <tr>
-                                                               <td>Jill</td>
-                                                               <td>44</td>
-                                                               <td>50</td>
-							       <td>1000</td>
+                                                               <td>All 34 Features</td>
+                                                               <td>0.5</td>
+                                                               <td>SVM</td>
+							       <td>0.46</td>
 			                                     </tr>
                                                              <tr> 
-                                                               <td>Eve</td>
-                                                               <td>Jackson</td>
-                                                               <td>94</td>
-							       <td>788</td>
+                                                               <td>Removing Spectral Centroid and Spread</td>
+                                                               <td>0.5</td>
+                                                               <td>SVM</td>
+							       <td>0.48</td>
 							     </tr>
                                                              <tr>
-                                                               <td>John</td>
-                                                               <td>Doe</td>
-                                                               <td>80</td>
-							       <td>45</td>
+                                                               <td>Removing some of MFCCs</td>
+                                                               <td>0.5</td>
+                                                               <td>SVM</td>
+							       <td>0.32</td>
 						             </tr>
 							     <tr>
-							       <td>87</td>
-							       <td>58</td>
-							       <td>78</td>
-							       <td>45</td>
+							       <td>Removing Chroma Deviation</td>
+							       <td>0.5</td>
+							       <td>SVM</td>
+							       <td>0.76</td>
 							     </tr>
 							     <tr>
-								<td>87</td>
-								<td>58</td>
-								<td>58</td>
-								<td>78</td>
+								<td>Removing chroma Deviation</td>
+								<td>0.5</td>
+								<td>SVM</td>
+								<td>0.82</td>
 							     </tr>
 							     <tr>
-								<td>87</td>
-								<td>58</td>
+								<td>Removing chroma Deviation</td>
+								<td>0.5</td>
 								<td>78</td
-								<td>08</td>
+								<td>1.00</td>
 							     </tr>
                                                       </table>
 					
@@ -345,7 +345,7 @@ In k-NN regression, the output is the property value for the object. This value 
 					</div>
 					</div>
                             <div class="section">
-		                   <div class="heading" id="#T19">5. References</div>
+		                   <div class="heading" id="T19">5. References</div>
 						   <div class="text">
 						     <ul>
 					             <li>Survey on speech emotion recognition: Features, classification schemes,and databases
